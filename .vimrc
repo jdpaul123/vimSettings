@@ -1,3 +1,4 @@
+set nocompatible " used to get rid of bugs with vi
 set autoindent
 set smartindent
 set tabstop=4
@@ -9,5 +10,4 @@ syntax on
 set number
 set ruler
 set showmatch
-set nocompatible
 inoremap jj <esc>
